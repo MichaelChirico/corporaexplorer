@@ -6,6 +6,7 @@ source("./global/backwards_compatibility.R", local = TRUE)
 
 # Constants ---------------------------------------------------------------
 
+TEST_MODE <- FALSE
 source("./global/constants.R", local = TRUE)
 
 # From corporaexplorerobject --------------------------------------------

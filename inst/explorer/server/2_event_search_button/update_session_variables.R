@@ -72,3 +72,5 @@ search_arguments$custom_column <- collect_custom_column(raw_highlight_terms) %>%
 
 # Checking search arguments -----------------------------------------------
 search_arguments$all_ok <- check_all_input()
+
+shiny::exportTestValues(nums =  search_arguments$time_range[1] )

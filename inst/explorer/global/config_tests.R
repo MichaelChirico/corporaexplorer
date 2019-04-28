@@ -8,6 +8,7 @@ loaded_data <- corporaexplorer::test_data
 
 # Constants ---------------------------------------------------------------
 
+TEST_MODE <- TRUE
 source("./global/constants.R", local = TRUE)
 
 # From corporaexplorerobject --------------------------------------------
